@@ -1,13 +1,13 @@
 @font-face {
   font-family: OpenSans-R;
-  src: url(/fonts/OpenSans-Regular.ttf);
+  src: url(../fonts/OpenSans-Regular.ttf);
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: OpenSans-B;
-  src: url(/fonts/OpenSans-Bold.ttf);
+  src: url(../fonts/OpenSans-Bold.ttf);
   font-weight: bold;
   font-style: normal;
 }
@@ -38,7 +38,7 @@ ul {
   display: flex;
   height: 64rem;
 
-  background-image: url(/image/banner-mobile.jpg);
+  background-image: url(../image/banner-mobile.jpg);
   background-color: #666666;
   background-repeat: no-repeat;
   background-size: cover;
@@ -166,19 +166,19 @@ ul {
 }
 
 .garden {
-  background-image: url(/image/trend1.jpg);
+  background-image: url(../image/trend1.jpg);
 }
 
 .cheese {
-  background-image: url(/image/trend2.jpg);
+  background-image: url(../image/trend2.jpg);
 }
 
 .hike {
-  background-image: url(/image/trend3.jpg);
+  background-image: url(../image/trend3.jpg);
 }
 
 .lemon {
-  background-image: url(/image/trend4.jpg);
+  background-image: url(../image/trend4.jpg);
 }
 
 .trend-outline {
@@ -316,7 +316,7 @@ ul {
 
 @media(min-width: 641px) and (max-width: 1200px) {
   .banner {
-    background-image: url(/image/banner-bg-tablet.jpg);
+    background-image: url(../image/banner-bg-tablet.jpg);
   }
 
   .banner-content {
@@ -389,7 +389,7 @@ ul {
 
 @media(min-width: 1201px) {
   .banner {
-    background-image: url(/image/banner-bg.jpg);
+    background-image: url(../image/banner-bg.jpg);
   }
 
   .banner-content {
@@ -452,5 +452,4 @@ ul {
   .main-caption {
     font-size: 2rem;
   }
-
 }
